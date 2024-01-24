@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, intiial-scalar=1.0">
+    <title> Document </title> 
+    <link rel="stylesheet" href = "styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto"
+    rel = "stylesheet"  />
+</head>
+
+
+<body> 
+    <div class="bio">
+        <img src="images/photo.JPG" alt="My Profile Picture" />
+        <h1> Hi, I'm Calvin Li! </h1> 
+        <p id = 'bio'> My name is Calvin Li. I'm an aspiring 
+            Data Scientist or Engineer in my fourth year as Northeastern 
+            data science and finance studnet. I am from New York City, more specifically Queens.
+        </p> 
+    </div>​
+
+    <p class = 'A'> List of content to include </p>
+    <ul>
+        <li> LinkedIn  </li>
+        <li> Github </li>
+        <li> About Me </li>
+        <li> Education </li>
+        <li> Experience  </li>
+        <li> Projects </li>
+    </ul>
+    
+
+
+    <p class = 'A'> Connect w/ Me </p>
+    <form onsubmit="return submitForm()">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    
+    <script src="scripts/form.js"></script>
+<!-- 
+    <script>
+        function submitForm() {
+            // Get values from the form
+            var firstName = document.getElementById('fname').value;
+            var lastName = document.getElementById('lname').value;
+
+            // Display a personalized message
+            alert('Thank you, ' + firstName + ' ' + lastName + '!');
+
+            // Prevent the form from submitting (for demonstration purposes)
+            return false;
+        }
+    </script> -->
+
+
+    <p class = 'A'> Education </p>
+    <button id = 'educationButton'> Education </button>
+    <!-- <script> 
+        const educationButton = document.getElementById("educationButton")
+        
+        educationButton.addEventListener('click', function(){
+            window.location.href = 'education.html'
+        })
+    </script> -->
+
+    <a class =  "link" href = "https://www.linkedin.com/in/calvin-li-29892a203/"> LinkedIn </a>
+    
+    
+    <!-- <script src="scripts/main.js"></script> -->
+    <script src="scripts/education.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
